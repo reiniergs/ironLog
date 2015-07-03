@@ -1,4 +1,4 @@
-# IronLog
+# iron-log
 turn off yours logs writing a single command and give you more colors and methods in console.
 
 ## Instalation
@@ -6,7 +6,7 @@ Download from [here][download]
 
 or use npm
 ```shell
- npm install
+ npm install iron-log
 ```
 
 ## How to use it?
