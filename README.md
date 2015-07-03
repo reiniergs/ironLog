@@ -1,4 +1,4 @@
-# ironLog
+# IronLog
 turn off yours logs writing a single command and give you more colors and methods in console.
 
 ## How to use it?
