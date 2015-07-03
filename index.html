@@ -7,6 +7,8 @@
 </head>
 <body>
     <script>
+        console.off({ error : true });
+        console.error('OK');
         var bar1 = console.progressBar(20,60);
             bar1.complete();
             bar1.log();

@@ -38,7 +38,7 @@
     var standDebug = this.debug;
 
     var checkOn = (function (func, flag) {
-        flag = typeof flag === 'undefined' ? 'active' : flag;
+        flag = flag || 'active';
         return (function () {
             if (privateProps[flag]) {
                 func.apply(this, arguments);
@@ -81,7 +81,7 @@
 
     this.off = function (options) {
         options = options || {};
-        privateProps.activeError = options.error === true ? true : privateProps.activeError;
+        privateProps.activeError = options.error ? false : privateProps.activeError;
         privateProps.active = false;
         return this;
     };
@@ -125,6 +125,7 @@
 
     this.on = function () {
         privateProps.active = true;
+        privateProps.activeError = true;
         return this;
     };
 
