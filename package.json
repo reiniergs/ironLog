@@ -1,0 +1,38 @@
+{
+  "name": "IronLog",
+  "version": "0.0.1",
+  "description": "Extend of Console Object, easy log with color and also off all your logs in your application",
+  "main": "dist/IronLog.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reiniergs/ironLog.git"
+  },
+  "keywords": [
+    "console",
+    "log",
+    "log",
+    "with",
+    "color",
+    "easy",
+    "log",
+    "fansy",
+    "log",
+    "off",
+    "logs",
+    "console.log"
+  ],
+  "author": "Rey Guerra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reiniergs/ironLog/issues"
+  },
+  "homepage": "https://github.com/reiniergs/ironLog",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-babel": "^5.0.1",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}

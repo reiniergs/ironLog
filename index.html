@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IronLog Docs</title>
+    <script src="dist/IronLog.js"></script>
+</head>
+<body>
+    <script>
+        var bar1 = console.progressBar(20,60);
+            bar1.complete();
+            bar1.log();
+        var bar2 = console.progressBar(50,60);
+            bar2.add(5);
+            bar2.log();
+        console.info('bla bla');
+        console.debug('jejejej');
+        console.styleCmd('test',{ 'font-size' : '25px', color : 'green' });
+        console.test('Hello' , 'Pal');
+    </script>
+</body>
+</html>
