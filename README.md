@@ -45,6 +45,7 @@ create a group on the console and show the elapsed time in seconds since its sta
     console.closeBlock();
   }
 ``` 
+![Screenshot](https://github.com/reiniergs/ironLog/blob/master/docs/openBlock.png)
 
 #### `console.progressBar(steps_completed, total_steps)`
 log in console a progress bar base on the params passed 
@@ -52,6 +53,8 @@ log in console a progress bar base on the params passed
 ```javascript
   console.progressBar(20,60);
 ```
+![Screenshot](https://github.com/reiniergs/ironLog/blob/master/docs/styleCmd.png)
+
 also you can something like this
 
 ```javascript
@@ -75,6 +78,8 @@ create you own console method usign you own styles
   console.styleCmd('test',styles);
   console.test('Hello world !')
 ```
+![Screenshot](https://github.com/reiniergs/ironLog/blob/master/docs/progressBar.png)
+
 
 
 
