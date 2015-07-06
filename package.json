@@ -1,5 +1,5 @@
 {
-  "name": "IronLog",
+  "name": "iron-log",
   "version": "0.1.0",
   "description": "Extend of Console Object, easy log with color and also off all your logs in your application",
   "main": "dist/IronLog.js",
